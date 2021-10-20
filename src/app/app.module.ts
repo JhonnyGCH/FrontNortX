@@ -18,7 +18,6 @@ import { ListarPaquetesComponent } from './listar-paquetes/listar-paquetes.compo
 import { ReservasComponent } from './reservas/reservas.component';
 import { AuthRegistroComponent } from './auth/auth-registro/auth-registro.component';
 import { AuthLoginComponent } from './auth/auth-login/auth-login.component';
-import { FormTourComponent } from './forms/form-tour/form-tour.component';
 // Servicios
 import { PaqueteService } from './services/paquete.service';
 import { RutaService } from './services/ruta.service';
@@ -50,7 +49,6 @@ import { AlojamientoService } from './services/alojamiento.service';
     PruebaComponent,
     AuthRegistroComponent,
     AuthLoginComponent,
-    FormTourComponent,
     FormEmpleadoComponent,
     FormPaquetesComponent,
   ],

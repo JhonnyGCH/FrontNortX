@@ -10,7 +10,6 @@ import { PaqueteComponent } from './paquete/paquete.component';
 import { PayuComponent } from './payu/payu/payu.component';
 import { PruebaComponent } from './prueba/prueba/prueba.component';
 import { ReservasComponent } from './reservas/reservas.component';
-import { FormTourComponent } from './forms/form-tour/form-tour.component';
 import { FormEmpleadoComponent } from './forms/form-empleado/form-empleado.component';
 import { FormPaquetesComponent } from './forms/form-paquetes/form-paquetes.component';
 
@@ -27,7 +26,6 @@ const routes: Routes = [
   {path:'login', component:AuthLoginComponent },
   {path:'registro', component:RegistroComponent},
   {path:'prueba', component:PruebaComponent},
-  {path:'tour', component:FormTourComponent},
   {path: 'empleado',component: FormEmpleadoComponent},
   {path: 'paquete',component: FormPaquetesComponent}
 ];
