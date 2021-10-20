@@ -33,6 +33,7 @@ import { CargoService } from './services/cargo.service';
 import { TourService } from './services/tour.service';
 import { FormPaquetesComponent } from './forms/form-paquetes/form-paquetes.component';
 import { AlojamientoService } from './services/alojamiento.service';
+import { PaquetesPageComponent } from './paquetes-page/paquetes-page.component';
 @NgModule({
   declarations: [
     AppComponent, 
@@ -51,6 +52,7 @@ import { AlojamientoService } from './services/alojamiento.service';
     AuthLoginComponent,
     FormEmpleadoComponent,
     FormPaquetesComponent,
+    PaquetesPageComponent,
   ],
   imports: [
     BrowserModule,
